@@ -29,7 +29,7 @@ while option != 7:
     if option == 1:
         print("Productos")
         for key, value in inventory.items():
-            print(f"{key}:{value}")
+            print(f"{key.upper()} - ${value}")
     elif option == 2:
         if len(cart) != 0:
             print("Carrito de compra")
